@@ -2138,3 +2138,197 @@ error: /home/jubitjohn/projects/timestampupdate/.metals/.tmp/.metals/.tmp/Main-6
 2023.09.03 21:22:21 INFO  time: indexed workspace in 4.13s[0m
 Sep 03, 2023 10:02:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.09.04 09:44:42 INFO  Bloop uses /usr/lib/jvm/java-1.8.0-openjdk-amd64 defined at /home/jubitjohn/.bloop/bloop.json[0m
+2023.09.04 09:44:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jubitjohn/projects/timestampupdate/.metals/bsp.trace.json or /home/jubitjohn/.cache/metals/bsp.trace.json[0m
+2023.09.04 09:44:42 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.09.04 09:44:42 INFO  Bloop uses /usr/lib/jvm/java-1.8.0-openjdk-amd64 defined at /home/jubitjohn/.bloop/bloop.json[0m
+2023.09.04 09:44:43 INFO  Bloop uses /usr/lib/jvm/java-1.8.0-openjdk-amd64 defined at /home/jubitjohn/.bloop/bloop.json[0m
+2023.09.04 09:44:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jubitjohn/projects/timestampupdate/project/.metals/bsp.trace.json or /home/jubitjohn/.cache/metals/bsp.trace.json[0m
+2023.09.04 09:44:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jubitjohn/projects/timestampupdate/project/.metals/bsp.trace.json or /home/jubitjohn/.cache/metals/bsp.trace.json[0m
+2023.09.04 09:44:43 INFO  time: Imported build in 0.4s[0m
+2023.09.04 09:44:45 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-1.8.0-openjdk-amd64/src.zip, /usr/lib/jvm/java-1.8.0-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.04 09:44:45 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-1.8.0-openjdk-amd64/src.zip, /usr/lib/jvm/java-1.8.0-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.04 09:44:45 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-1.8.0-openjdk-amd64/src.zip, /usr/lib/jvm/java-1.8.0-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.04 09:44:45 INFO  time: indexed workspace in 2.15s[0m
+2023.09.04 09:44:45 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:44:48 INFO  time: compiled timestampupdate in 2.42s[0m
+2023.09.04 09:46:26 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:46:28 INFO  time: compiled timestampupdate in 1.7s[0m
+2023.09.04 09:47:30 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:47:31 INFO  time: compiled timestampupdate in 1.54s[0m
+2023.09.04 09:51:45 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:51:47 INFO  time: compiled timestampupdate in 1.93s[0m
+2023.09.04 09:55:13 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:55:13 INFO  time: compiled timestampupdate in 0.4s[0m
+2023.09.04 09:55:22 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:55:22 INFO  time: compiled timestampupdate in 0.39s[0m
+2023.09.04 09:55:55 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:55:55 INFO  time: compiled timestampupdate in 0.33s[0m
+Sep 04, 2023 9:55:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7005
+2023.09.04 09:56:35 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:56:35 INFO  time: compiled timestampupdate in 0.32s[0m
+2023.09.04 09:56:43 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:56:43 INFO  time: compiled timestampupdate in 0.34s[0m
+Sep 04, 2023 9:56:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7074
+2023.09.04 09:56:47 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:56:47 INFO  time: compiled timestampupdate in 0.29s[0m
+2023.09.04 09:56:52 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:56:52 INFO  time: compiled timestampupdate in 0.32s[0m
+2023.09.04 09:57:22 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:57:22 INFO  time: compiled timestampupdate in 0.31s[0m
+2023.09.04 09:57:40 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:57:40 INFO  time: compiled timestampupdate in 0.37s[0m
+2023.09.04 09:58:33 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:58:34 INFO  time: compiled timestampupdate in 1.37s[0m
+2023.09.04 09:58:37 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:58:39 INFO  time: compiled timestampupdate in 1.38s[0m
+2023.09.04 09:58:52 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:58:53 INFO  time: compiled timestampupdate in 1.35s[0m
+2023.09.04 09:58:55 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:58:57 INFO  time: compiled timestampupdate in 1.59s[0m
+2023.09.04 09:59:12 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:59:12 INFO  time: compiled timestampupdate in 0.36s[0m
+2023.09.04 09:59:15 WARN  Using indexes to guess the definition of PK[0m
+2023.09.04 09:59:15 WARN  Using indexes to guess the definition of cei_code[0m
+2023.09.04 09:59:17 WARN  Using indexes to guess the definition of cei_code[0m
+Sep 04, 2023 9:59:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7259
+2023.09.04 09:59:31 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:59:33 INFO  time: compiled timestampupdate in 2.07s[0m
+2023.09.04 09:59:35 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:59:36 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 09:59:35 INFO  time: compiled timestampupdate in 0.47s[0m
+2023.09.04 09:59:38 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 09:59:38 INFO  time: compiled timestampupdate in 0.34s[0m
+2023.09.04 09:59:38 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 09:59:41 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 09:59:53 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 09:59:57 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 09:59:57 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 09:59:58 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:00:00 INFO  time: compiled timestampupdate in 1.82s[0m
+2023.09.04 10:00:02 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:00:03 INFO  time: compiled timestampupdate in 1.81s[0m
+2023.09.04 10:00:06 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:00:06 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 10:00:07 INFO  time: compiled timestampupdate in 1.91s[0m
+2023.09.04 10:01:17 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:01:19 INFO  time: compiled timestampupdate in 1.95s[0m
+Sep 04, 2023 10:01:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7401
+2023.09.04 10:06:28 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:06:29 INFO  time: compiled timestampupdate in 1.78s[0m
+2023.09.04 10:13:20 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:13:20 INFO  time: compiled timestampupdate in 0.23s[0m
+2023.09.04 10:13:27 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:13:27 INFO  time: compiled timestampupdate in 0.28s[0m
+2023.09.04 10:14:00 ERROR Failed to tokenize input for semantic tokens for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:130: error: unclosed string literal
+      logger.warn("File Not\")
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[0m
+2023.09.04 10:14:09 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:14:09 INFO  time: compiled timestampupdate in 0.38s[0m
+2023.09.04 10:14:16 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:14:16 INFO  time: compiled timestampupdate in 0.36s[0m
+2023.09.04 10:15:03 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:15:03 INFO  time: compiled timestampupdate in 0.17s[0m
+2023.09.04 10:15:09 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:15:09 INFO  time: compiled timestampupdate in 0.34s[0m
+Sep 04, 2023 10:15:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7833
+2023.09.04 10:15:23 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:15:23 INFO  time: compiled timestampupdate in 0.18s[0m
+2023.09.04 10:15:28 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:15:28 INFO  time: compiled timestampupdate in 0.18s[0m
+2023.09.04 10:15:35 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:15:35 INFO  time: compiled timestampupdate in 0.2s[0m
+2023.09.04 10:15:39 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:15:39 INFO  time: compiled timestampupdate in 0.22s[0m
+2023.09.04 10:15:46 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:15:46 INFO  time: compiled timestampupdate in 0.2s[0m
+2023.09.04 10:15:59 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:16:01 INFO  time: compiled timestampupdate in 2.35s[0m
+2023.09.04 10:16:04 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:16:04 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 10:16:06 INFO  time: compiled timestampupdate in 1.88s[0m
+Exception in thread "pool-44-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.09.04 10:18:59 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:18:59 INFO  time: compiled timestampupdate in 0.82s[0m
+2023.09.04 10:19:10 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:19:10 INFO  time: compiled timestampupdate in 0.36s[0m
+Exception in thread "pool-44-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.09.04 10:19:37 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:19:37 INFO  time: compiled timestampupdate in 0.33s[0m
+2023.09.04 10:19:39 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:19:39 INFO  time: compiled timestampupdate in 0.38s[0m
+2023.09.04 10:21:22 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:21:23 INFO  time: compiled timestampupdate in 1.96s[0m
+2023.09.04 10:21:34 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:21:36 INFO  time: compiled timestampupdate in 1.88s[0m
+2023.09.04 10:21:39 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 10:21:41 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 10:21:46 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 10:21:46 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 10:21:47 WARN  Using indexes to guess the definition of None[0m
+2023.09.04 10:21:49 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 10:21:58 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 10:23:46 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 10:24:23 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 10:24:23 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:24:23 INFO  time: compiled timestampupdate in 0.49s[0m
+2023.09.04 10:24:26 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 10:24:29 WARN  Could not load snapshot text for /home/jubitjohn/projects/timestampupdate/src/main/scala/Main.scala[0m
+2023.09.04 10:24:29 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:24:31 INFO  time: compiled timestampupdate in 2.11s[0m
+2023.09.04 10:24:41 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:24:43 INFO  time: compiled timestampupdate in 1.9s[0m
+2023.09.04 10:24:55 INFO  compiling timestampupdate (1 scala source)[0m
+2023.09.04 10:24:57 INFO  time: compiled timestampupdate in 1.91s[0m
+Sep 04, 2023 10:28:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8458

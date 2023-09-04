@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(package, Some(a8e2e196-611e-435a-8111-8443eaecbcc5), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / package[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Sep 4, 2023 10:22:21 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

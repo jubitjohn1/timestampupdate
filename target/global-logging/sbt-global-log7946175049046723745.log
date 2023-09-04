@@ -1,8 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(pacjage, Some(9032bbf7-7f3f-4696-a620-4ef696aa37c3), Some(CommandSource(console0)))[0m
-[0m[[0m[31merror[0m] [0m[0mNot a valid command: pacjage[0m
-[0m[[0m[31merror[0m] [0m[0mNot a valid project ID: pacjage[0m
-[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
-[0m[[0m[31merror[0m] [0m[0mNot a valid key: pacjage (similar: package, packageDoc, packageSrc)[0m
-[0m[[0m[31merror[0m] [0m[0mpacjage[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
