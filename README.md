@@ -25,7 +25,6 @@ This Spark job is designed to analyze and provide the latest update status (eith
 
 ## Demo CSV
 
-
 ```csv
 cei_code,device_name,user_name,cei_status,updated_at
 121,"A","abc","success",2023-08-12-07:01:55
@@ -33,5 +32,21 @@ cei_code,device_name,user_name,cei_status,updated_at
 121,"A",null,"failed",2023-08-13-10:01:27
 121,"C",null,"success",2023-08-13-12:01:55
 121,"A","abc","failed",2023-08-12-02:11:52
+
+## Config file
+
+```csv
+   [
+
+    {
+        "cei_code":"121",
+        "PK":"device_name"
+    },
+    {
+        "cei_code":"122",
+        "PK":"user_name"
+    }
+
+   ]
 
    
