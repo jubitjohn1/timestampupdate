@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Spark job is designed to analyze and provide the latest update status (either "success" or "fail") of a device at a specified timestamp. It processes a dataset of device status updates and identifies the most recent status for each device at the given timestamp.
+This Spark job is designed to analyze and provide the latest update status (either "success" or "fail") of a device before a specified timestamp. It processes a dataset of device status updates and identifies the most recent status for each device at the given timestamp.
 
 ## Features
 
