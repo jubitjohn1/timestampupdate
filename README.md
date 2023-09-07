@@ -35,7 +35,7 @@ cei_code,device_name,user_name,cei_status,updated_at
 
 ## Config file
 
-```csv
+```json
    [
 
     {
