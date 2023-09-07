@@ -22,3 +22,16 @@ This Spark job is designed to analyze and provide the latest update status (eith
    ```bash
    git clone https://github.com/jubitjohn1/timestampupdate.git
    cd timestampupdate
+
+## Demo CSV
+
+
+```csv
+cei_code,device_name,user_name,cei_status,updated_at
+121,"A","abc","success",2023-08-12-07:01:55
+122,"B","bcd","failed",2023-08-12-02:11:52
+121,"A",null,"failed",2023-08-13-10:01:27
+121,"C",null,"success",2023-08-13-12:01:55
+121,"A","abc","failed",2023-08-12-02:11:52
+
+   
