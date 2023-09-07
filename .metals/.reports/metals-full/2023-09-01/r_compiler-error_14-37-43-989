@@ -1,0 +1,387 @@
+scala.reflect.internal.FatalError: 
+  associatedFile_= inapplicable for <none>
+     while compiling: jar:file://<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.9.3/main_2.12-1.9.3-sources.jar!/sbt/internal/KeyIndex.scala
+        during phase: globalPhase=<no phase>, enteringPhase=namer
+     library version: version 2.12.18
+    compiler version: version 2.12.18
+  reconstructed args: -deprecation -Wconf:cat=unused-nowarn:s -Wconf:cat=deprecation:w -Wconf:cat=deprecation:ws -Wconf:cat=feature:ws -Wconf:cat=optimizer:ws -classpath <WORKSPACE>/project/.bloop/timestampupdate-build/bloop-bsp-clients-classes/classes-Metals-MC4Qb3zfRB24Xss3ACz5aQ==:<HOME>/.cache/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.9.5/semanticdb-javac-0.9.5.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.9.3/sbt-1.9.3.jar:<HOME>/.sbt/boot/scala-2.12.18/lib/scala-library.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.8/sbt-bloop_2.12_1.0-1.5.8.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.9.3/main_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.9.1/io_2.12-1.9.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.5.5/bloop-config_2.12-1.5.5.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.9.3/logic_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.9.3/actions_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.9.3/main-settings_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.9.3/run_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.9.3/command_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.3/collections_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.9.3/scripted-plugin_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.9.3/zinc-lm-integration_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.9.3/util-logging_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.1.0/scala-xml_2.12-2.1.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.2/launcher-interface-1.4.2.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.5/caffeine-2.8.5.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.1.0/lm-coursier-shaded_2.12-2.1.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.9.1/librarymanagement-core_2.12-1.9.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.9.1/librarymanagement-ivy_2.12-1.9.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.3/compiler-interface-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.9.3/zinc-compile_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.10/file-tree-views-2.1.10.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.9.3/util-relation_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.9.3/completion_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.9.3/task-system_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.9.3/tasks_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.9.3/testing_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.9.3/util-tracking_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.9.3/zinc-classpath_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.9.3/zinc-apiinfo_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.9.3/zinc_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.9.3/core-macros_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.9.3/util-cache_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.9.3/util-control_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.9.3/protocol_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/template-resolver/0.1/template-resolver-0.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.9.3/util-position_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.9.3/zinc-compile-core_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.3/util-interface-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar:<HOME>/.sbt/boot/scala-2.12.18/lib/scala-reflect.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.1/checker-qual-3.4.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.9.0/scala-collection-compat_2.12-2.9.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:<HOME>/.sbt/boot/scala-2.12.18/lib/scala-compiler.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-apache-http_2.12/0.7.0/gigahorse-apache-http_2.12-0.7.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-a8f9eb5bf09d0539ea3658a2c2d4e09755b5133e/ivy-2.3.0-sbt-a8f9eb5bf09d0539ea3658a2c2d4e09755b5133e.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-builtins/3.19.0/jline-builtins-3.19.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-agent/1.9.3/test-agent-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.9.3/compiler-bridge_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.9.3/zinc-classfile_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.9.3/zinc-core_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.9.3/zinc-persist_2.12-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.6.2/ipcsocket-1.6.2.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.7.0/gigahorse-core_2.12-0.7.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-apache-httpasyncclient/0.7.0/shaded-apache-httpasyncclient-0.7.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.3/zinc-persist-core-assembly-1.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar -Xplugin-require:semanticdb -Xsource:3.0.0 -Yrangepos -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified -Ypresentation-any-thread
+
+  last tree to typer: EmptyTree
+       tree position: <unknown>
+            tree tpe: <notype>
+              symbol: null
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+
+occurred in the presentation compiler.
+
+action parameters:
+uri: jar:file://<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.9.3/main_2.12-1.9.3-sources.jar!/sbt/internal/KeyIndex.scala
+text:
+import _root_.scala.xml.{TopScope=>$scope}
+import _root_.sbt._
+import _root_.sbt.Keys._
+import _root_.sbt.nio.Keys._
+import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._
+import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin
+/*
+ * sbt
+ * Copyright 2023, Scala center
+ * Copyright 2011 - 2022, Lightbend, Inc.
+ * Copyright 2008 - 2010, Mark Harrah
+ * Licensed under Apache License 2.0 (see LICENSE)
+ */
+
+package sbt
+package internal
+
+import java.net.URI
+import Def.ScopedKey
+import sbt.internal.util.complete.DefaultParsers.validID
+import sbt.internal.util.Types.some
+import sbt.internal.util.{ AttributeKey, Relation }
+import sbt.librarymanagement.Configuration
+import scala.annotation.nowarn
+
+object KeyIndex {
+  def empty: ExtendableKeyIndex = new KeyIndex0(emptyBuildIndex)
+
+  @nowarn
+  def apply(
+      known: Iterable[ScopedKey[_]],
+      projects: Map[URI, Set[String]],
+      configurations: Map[String, Seq[Configuration]]
+  ): ExtendableKeyIndex = {
+    import sbt.internal.CompatParColls.Converters._
+    known.par.foldLeft(base(projects, configurations)) { _ add _ }
+  }
+
+  @nowarn
+  def aggregate(
+      known: Iterable[ScopedKey[_]],
+      extra: BuildUtil[_],
+      projects: Map[URI, Set[String]],
+      configurations: Map[String, Seq[Configuration]]
+  ): ExtendableKeyIndex = {
+    /*
+     * Used to be:
+     * (base(projects, configurations) /: known) { (index, key) =>
+     *   index.addAggregated(key, extra)
+     * }
+     * This was a significant serial bottleneck during project loading that we can work around by
+     * computing the aggregations in parallel and then bulk adding them to the index.
+     */
+    import sbt.internal.CompatParColls.Converters._
+    val toAggregate = known.par.map {
+      case key if validID(key.key.label) =>
+        Aggregation.aggregate(key, ScopeMask(), extra, reverse = true)
+      case _ => Nil
+    }
+    toAggregate.foldLeft(base(projects, configurations)) {
+      case (index, Nil)  => index
+      case (index, keys) => keys.foldLeft(index)(_ add _)
+    }
+  }
+
+  private[this] def base(
+      projects: Map[URI, Set[String]],
+      configurations: Map[String, Seq[Configuration]]
+  ): ExtendableKeyIndex = {
+    val data = for {
+      (uri, ids) <- projects
+    } yield {
+      val data = ids map { id =>
+        val configs = configurations.getOrElse(id, Seq())
+        val configIdentToName = configs.map(config => config.id -> config.name).toMap
+        Option(id) -> new ConfigIndex(Map.empty, configIdentToName, emptyAKeyIndex)
+      }
+      Option(uri) -> new ProjectIndex(data.toMap)
+    }
+    new KeyIndex0(new BuildIndex(data))
+  }
+
+  def combine(indices: Seq[KeyIndex]): KeyIndex = new KeyIndex {
+    def buildURIs = concat(_.buildURIs)
+    def projects(uri: URI) = concat(_.projects(uri))
+    def exists(project: Option[ResolvedReference]): Boolean = indices.exists(_ exists project)
+    def configs(proj: Option[ResolvedReference]) = concat(_.configs(proj))
+    private[sbt] def configIdents(proj: Option[ResolvedReference]) = concat(_.configIdents(proj))
+    private[sbt] def fromConfigIdent(proj: Option[ResolvedReference])(configIdent: String): String =
+      indices.find(idx => idx.exists(proj)) match {
+        case Some(idx) => idx.fromConfigIdent(proj)(configIdent)
+        case _         => Scope.unguessConfigIdent(configIdent)
+      }
+    def tasks(proj: Option[ResolvedReference], conf: Option[String]) = concat(_.tasks(proj, conf))
+    def tasks(proj: Option[ResolvedReference], conf: Option[String], key: String) =
+      concat(_.tasks(proj, conf, key))
+    def keys(proj: Option[ResolvedReference]) = concat(_.keys(proj))
+    def keys(proj: Option[ResolvedReference], conf: Option[String]) = concat(_.keys(proj, conf))
+    def keys(proj: Option[ResolvedReference], conf: Option[String], task: Option[AttributeKey[_]]) =
+      concat(_.keys(proj, conf, task))
+    def concat[T](f: KeyIndex => Set[T]): Set[T] =
+      indices.foldLeft(Set.empty[T])((s, k) => s ++ f(k))
+  }
+  private[sbt] def getOr[A, B](m: Map[A, B], key: A, or: B): B = m.getOrElse(key, or)
+  private[sbt] def keySet[A, B](m: Map[Option[A], B]): Set[A] = m.keys.flatten.toSet
+  private[sbt] val emptyAKeyIndex = new AKeyIndex(Relation.empty)
+  private[sbt] val emptyConfigIndex = new ConfigIndex(Map.empty, Map.empty, emptyAKeyIndex)
+  private[sbt] val emptyProjectIndex = new ProjectIndex(Map.empty)
+  private[sbt] val emptyBuildIndex = new BuildIndex(Map.empty)
+
+}
+import KeyIndex._
+
+trait KeyIndex {
+  // TODO, optimize
+  def isEmpty(proj: Option[ResolvedReference], conf: Option[String]): Boolean =
+    keys(proj, conf).isEmpty
+  def isEmpty(
+      proj: Option[ResolvedReference],
+      conf: Option[String],
+      task: Option[AttributeKey[_]]
+  ): Boolean = keys(proj, conf, task).isEmpty
+
+  def buildURIs: Set[URI]
+  def projects(uri: URI): Set[String]
+  def exists(project: Option[ResolvedReference]): Boolean
+  def configs(proj: Option[ResolvedReference]): Set[String]
+  def tasks(proj: Option[ResolvedReference], conf: Option[String]): Set[AttributeKey[_]]
+  def tasks(
+      proj: Option[ResolvedReference],
+      conf: Option[String],
+      key: String
+  ): Set[AttributeKey[_]]
+  def keys(proj: Option[ResolvedReference]): Set[String]
+  def keys(proj: Option[ResolvedReference], conf: Option[String]): Set[String]
+  def keys(
+      proj: Option[ResolvedReference],
+      conf: Option[String],
+      task: Option[AttributeKey[_]]
+  ): Set[String]
+  private[sbt] def configIdents(project: Option[ResolvedReference]): Set[String]
+  private[sbt] def fromConfigIdent(proj: Option[ResolvedReference])(configIdent: String): String
+}
+trait ExtendableKeyIndex extends KeyIndex {
+  def add(scoped: ScopedKey[_]): ExtendableKeyIndex
+  def addAggregated(scoped: ScopedKey[_], extra: BuildUtil[_]): ExtendableKeyIndex
+}
+// task axis <-> key
+private[sbt] final class AKeyIndex(val data: Relation[Option[AttributeKey[_]], String]) {
+  def add(task: Option[AttributeKey[_]], key: AttributeKey[_]): AKeyIndex =
+    new AKeyIndex(data + (task, key.label))
+  def keys(task: Option[AttributeKey[_]]): Set[String] = data.forward(task)
+  def allKeys: Set[String] = data._2s.toSet
+  def tasks: Set[AttributeKey[_]] = data._1s.flatten.toSet
+  def tasks(key: String): Set[AttributeKey[_]] = data.reverse(key).flatten
+}
+
+private[sbt] case class IdentifiableConfig(name: String, ident: Option[String])
+
+private[sbt] case class ConfigData(ident: Option[String], keys: AKeyIndex)
+
+/*
+ * data contains the mapping between a configuration name and its keys.
+ * configIdentToName contains the mapping between a configuration ident and its name
+ * noConfigKeys contains the keys without a configuration.
+ */
+private[sbt] final class ConfigIndex(
+    val data: Map[String, AKeyIndex],
+    val configIdentToName: Map[String, String],
+    val noConfigKeys: AKeyIndex
+) {
+  def add(
+      config: Option[IdentifiableConfig],
+      task: Option[AttributeKey[_]],
+      key: AttributeKey[_]
+  ): ConfigIndex = {
+    config match {
+      case Some(c) => addKeyWithConfig(c, task, key)
+      case None    => addKeyWithoutConfig(task, key)
+    }
+  }
+
+  def addKeyWithConfig(
+      config: IdentifiableConfig,
+      task: Option[AttributeKey[_]],
+      key: AttributeKey[_]
+  ): ConfigIndex = {
+    val keyIndex = data.getOrElse(config.name, emptyAKeyIndex)
+    val configIdent = config.ident.getOrElse(Scope.guessConfigIdent(config.name))
+    new ConfigIndex(
+      data.updated(config.name, keyIndex.add(task, key)),
+      configIdentToName.updated(configIdent, config.name),
+      noConfigKeys
+    )
+  }
+
+  def addKeyWithoutConfig(task: Option[AttributeKey[_]], key: AttributeKey[_]): ConfigIndex = {
+    new ConfigIndex(data, configIdentToName, noConfigKeys.add(task, key))
+  }
+
+  def keyIndex(conf: Option[String]): AKeyIndex = conf match {
+    case Some(c) => data.get(c).getOrElse(emptyAKeyIndex)
+    case None    => noConfigKeys
+  }
+
+  def configs: Set[String] = data.keySet
+  private[sbt] lazy val idents: Set[String] = configIdentToName.keySet
+
+  // guess Configuration name from an identifier.
+  // There's a guessing involved because we could have scoped key that Project is not aware of.
+  private[sbt] def fromConfigIdent(ident: String): String =
+    configIdentToName.getOrElse(ident, Scope.unguessConfigIdent(ident))
+}
+private[sbt] object ConfigIndex
+
+private[sbt] final class ProjectIndex(val data: Map[Option[String], ConfigIndex]) {
+  def add(
+      id: Option[String],
+      config: Option[IdentifiableConfig],
+      task: Option[AttributeKey[_]],
+      key: AttributeKey[_]
+  ): ProjectIndex =
+    new ProjectIndex(data updated (id, confIndex(id).add(config, task, key)))
+  def confIndex(id: Option[String]): ConfigIndex = getOr(data, id, emptyConfigIndex)
+  def projects: Set[String] = keySet(data)
+}
+private[sbt] final class BuildIndex(val data: Map[Option[URI], ProjectIndex]) {
+  def add(
+      build: Option[URI],
+      project: Option[String],
+      config: Option[IdentifiableConfig],
+      task: Option[AttributeKey[_]],
+      key: AttributeKey[_]
+  ): BuildIndex =
+    new BuildIndex(data updated (build, projectIndex(build).add(project, config, task, key)))
+  def projectIndex(build: Option[URI]): ProjectIndex = getOr(data, build, emptyProjectIndex)
+  def builds: Set[URI] = keySet(data)
+}
+private[sbt] final class KeyIndex0(val data: BuildIndex) extends ExtendableKeyIndex {
+  def buildURIs: Set[URI] = data.builds
+  def projects(uri: URI): Set[String] = data.projectIndex(Some(uri)).projects
+  def exists(proj: Option[ResolvedReference]): Boolean = {
+    val (build, project) = parts(proj)
+    data.data.get(build).flatMap(_.data.get(project)).isDefined
+  }
+  def configs(project: Option[ResolvedReference]): Set[String] = confIndex(project).configs
+
+  private[sbt] def configIdents(project: Option[ResolvedReference]): Set[String] =
+    confIndex(project).idents
+
+  private[sbt] def fromConfigIdent(proj: Option[ResolvedReference])(configIdent: String): String =
+    confIndex(proj).fromConfigIdent(configIdent)
+
+  def tasks(proj: Option[ResolvedReference], conf: Option[String]): Set[AttributeKey[_]] =
+    keyIndex(proj, conf).tasks
+  def tasks(
+      proj: Option[ResolvedReference],
+      conf: Option[String],
+      key: String
+  ): Set[AttributeKey[_]] = keyIndex(proj, conf).tasks(key)
+  def keys(proj: Option[ResolvedReference]): Set[String] =
+    optConfigs(proj).foldLeft(Set.empty[String]) { (s, c) =>
+      s ++ keys(proj, c)
+    }
+  def keys(proj: Option[ResolvedReference], conf: Option[String]): Set[String] =
+    keyIndex(proj, conf).allKeys
+  def keys(
+      proj: Option[ResolvedReference],
+      conf: Option[String],
+      task: Option[AttributeKey[_]]
+  ): Set[String] = keyIndex(proj, conf).keys(task)
+
+  def keyIndex(proj: Option[ResolvedReference], conf: Option[String]): AKeyIndex =
+    confIndex(proj).keyIndex(conf)
+  def confIndex(proj: Option[ResolvedReference]): ConfigIndex = {
+    val (build, project) = parts(proj)
+    data.projectIndex(build).confIndex(project)
+  }
+  def parts(proj: Option[Reference]): (Option[URI], Option[String]) =
+    proj match {
+      case Some(ProjectRef(uri, id)) => (Some(uri), Some(id))
+      case Some(BuildRef(uri))       => (Some(uri), None)
+      case _                         => (None, None)
+    }
+  private[this] def optConfigs(project: Option[ResolvedReference]): Seq[Option[String]] =
+    None +: (configs(project).toSeq map some.fn)
+
+  def addAggregated(scoped: ScopedKey[_], extra: BuildUtil[_]): ExtendableKeyIndex =
+    if (validID(scoped.key.label)) {
+      val aggregateProjects = Aggregation.aggregate(scoped, ScopeMask(), extra, reverse = true)
+      aggregateProjects.foldLeft(this: ExtendableKeyIndex)(_ add _)
+    } else
+      this
+
+  def add(scoped: ScopedKey[_]): ExtendableKeyIndex =
+    if (validID(scoped.key.label)) add0(scoped) else this
+  private[this] def add0(scoped: ScopedKey[_]): ExtendableKeyIndex = {
+    val (build, project) = parts(scoped.scope.project.toOption)
+    add1(build, project, scoped.scope.config, scoped.scope.task, scoped.key)
+  }
+  private[this] def add1(
+      uri: Option[URI],
+      id: Option[String],
+      config: ScopeAxis[ConfigKey],
+      task: ScopeAxis[AttributeKey[_]],
+      key: AttributeKey[_]
+  ): ExtendableKeyIndex = {
+    val keyConfig = config.toOption.map(c => IdentifiableConfig(c.name, None))
+    new KeyIndex0(data.add(uri, id, keyConfig, task.toOption, key))
+  }
+}
+
+
+
+error stacktrace:
+scala.reflect.internal.Reporting.abort(Reporting.scala:69)
+	scala.reflect.internal.Reporting.abort$(Reporting.scala:65)
+	scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:28)
+	scala.reflect.internal.Symbols$Symbol.associatedFile_$eq(Symbols.scala:2592)
+	scala.tools.nsc.typechecker.Namers$Namer.enterModuleSymbol(Namers.scala:487)
+	scala.tools.nsc.typechecker.Namers$Namer.enterModuleDef(Namers.scala:447)
+	scala.tools.nsc.typechecker.Namers$Namer.dispatch$1(Namers.scala:291)
+	scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:302)
+	scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:479)
+	scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:478)
+	scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:67)
+	scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:280)
+	scala.tools.nsc.typechecker.Namers$Namer.enterSyntheticSym(Namers.scala:838)
+	scala.tools.nsc.typechecker.Namers$Namer.standardEnsureCompanionObject(Namers.scala:539)
+	scala.tools.nsc.typechecker.AnalyzerPlugins$$anon$14.default(AnalyzerPlugins.scala:498)
+	scala.tools.nsc.typechecker.AnalyzerPlugins$$anon$14.default(AnalyzerPlugins.scala:495)
+	scala.tools.nsc.typechecker.AnalyzerPlugins.invoke(AnalyzerPlugins.scala:411)
+	scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnsureCompanionObject(AnalyzerPlugins.scala:495)
+	scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnsureCompanionObject$(AnalyzerPlugins.scala:495)
+	scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnsureCompanionObject(MetalsGlobal.scala:67)
+	scala.tools.nsc.typechecker.Namers$Namer.ensureCompanionObject(Namers.scala:511)
+	scala.tools.nsc.typechecker.Namers$Namer.enterClassDef(Namers.scala:804)
+	scala.tools.nsc.typechecker.Namers$Namer.dispatch$1(Namers.scala:290)
+	scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:302)
+	scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:479)
+	scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:478)
+	scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:67)
+	scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:280)
+	scala.tools.nsc.typechecker.Namers$Namer.$anonfun$enterSyms$1(Namers.scala:496)
+	scala.tools.nsc.typechecker.Namers$Namer.enterSyms(Namers.scala:495)
+	scala.tools.nsc.typechecker.Namers$Namer.enterPackage(Namers.scala:766)
+	scala.tools.nsc.typechecker.Namers$Namer.dispatch$1(Namers.scala:289)
+	scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:302)
+	scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:479)
+	scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:478)
+	scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:67)
+	scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:280)
+	scala.tools.nsc.typechecker.Analyzer$namerFactory$$anon$1.apply(Analyzer.scala:48)
+	scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:453)
+	scala.tools.nsc.Global$Run.$anonfun$compileLate$3(Global.scala:1645)
+	scala.tools.nsc.Global$Run.$anonfun$compileLate$2(Global.scala:1645)
+	scala.tools.nsc.Global$Run.$anonfun$compileLate$2$adapted(Global.scala:1644)
+	scala.collection.Iterator.foreach(Iterator.scala:943)
+	scala.collection.Iterator.foreach$(Iterator.scala:943)
+	scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	scala.tools.nsc.Global$Run.compileLate(Global.scala:1644)
+	scala.tools.nsc.interactive.Global.parseAndEnter(Global.scala:654)
+	scala.tools.nsc.interactive.Global.typeCheck(Global.scala:664)
+	scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:33)
+	scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$semanticdbTextDocument$1(ScalaPresentationCompiler.scala:350)
